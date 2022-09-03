@@ -1,3 +1,4 @@
+/*SECTION*/
 section {
     padding: 60px 0;
     overflow: hidden;
@@ -5,5 +6,23 @@ section {
     .section-header {
         text-align: center;
         padding-bottom: 40px;
+
+        h2 {
+            font-size: 48px;
+            font-weight: 300;
+            margin-bottom: 20px;
+            color: var(--color-secondary);
+        }
+
+        p {
+            margin: 0 auto;
+            color: var(--color-secondary-light);
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .section-header p {
+        max-width: 80%;
     }
 }
