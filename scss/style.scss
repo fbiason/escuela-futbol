@@ -315,6 +315,20 @@ section {
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
+.features div ul{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 960px;
+}
+
+@media (max-width: 425px) {
+  .features div ul{
+    flex-wrap: wrap;
+    width: auto;
+  }
+}
+
+
 .features .nav-tabs {
   border: 0;
 }

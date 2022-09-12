@@ -283,3 +283,12 @@
     z-index: 9996;
   }
 }
+
+
+@media (max-width: 425px) {
+  .header .logo img{
+    margin-top: 0rem;
+    padding-left: 0rem;
+    width: 50px;
+  }
+}

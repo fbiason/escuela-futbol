@@ -252,6 +252,12 @@
     background: rgba(var(--color-secondary-rgb), 0.8);
     z-index: 9996; } }
 
+@media (max-width: 425px) {
+  .header .logo img {
+    margin-top: 0rem;
+    padding-left: 0rem;
+    width: 50px; } }
+
 /*--------------------------------------------------------------
 # Fullscreen Hero Section
 --------------------------------------------------------------*/
@@ -847,6 +853,16 @@ section {
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
+.features div ul {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 960px; }
+
+@media (max-width: 425px) {
+  .features div ul {
+    flex-wrap: wrap;
+    width: auto; } }
+
 .features .nav-tabs {
   border: 0; }
 
