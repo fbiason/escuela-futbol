@@ -628,6 +628,18 @@
   background: var(--color-primary);
   text-decoration: none; }
 
+.margin {
+  margin-bottom: 40px; }
+
+.card {
+  border: 1px solid #0e72c4; }
+
+.titulo-semillero {
+  margin: 30px 0px 25px 0px; }
+
+.parrafo-semillero {
+  margin-bottom: 30px; }
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
