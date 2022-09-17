@@ -36,6 +36,10 @@ h6 {
   text-align: justify;
 }
 
+.modal {
+  color: black;
+}
+
 /*--------------------------------------------------------------
   # Preloader
   --------------------------------------------------------------*/
@@ -275,11 +279,11 @@ section {
     margin-left: 40px;
   }
 }
-@media (max-width: 425px){
-  .about .nav-pills{
+@media (max-width: 425px) {
+  .about .nav-pills {
     display: flex;
     justify-content: space-around;
-    li + li{
+    li + li {
       margin-left: 0px;
     }
   }
@@ -325,19 +329,18 @@ section {
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
-.features div ul{
+.features div ul {
   display: flex;
   flex-wrap: nowrap;
   width: 960px;
 }
 
 @media (max-width: 425px) {
-  .features div ul{
+  .features div ul {
     flex-wrap: wrap;
     width: auto;
   }
 }
-
 
 .features .nav-tabs {
   border: 0;
