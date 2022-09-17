@@ -284,6 +284,29 @@
   }
 }
 
+@media (max-width: 1280px) {
+  .header .logo img{
+    margin-top: 0rem;
+    padding-left: 0rem;
+    width: 90px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header .logo img{
+    margin-top: 0rem;
+    padding-left: 0rem;
+    width: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .logo img{
+    margin-top: 0rem;
+    padding-left: 0rem;
+    width: 70px;
+  }
+}
 
 @media (max-width: 425px) {
   .header .logo img{
